@@ -1,0 +1,121 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #ffffff, #e4e6fc);
+}
+
+/* Home component */
+.home-container {
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  color: #5a5a5a;
+  margin-bottom: 2rem;
+}
+
+.start-button {
+  background-color: #ff4757;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.start-button:hover {
+  background-color: #ff6b81;
+}
+
+/* Quiz component */
+.quiz-container {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.quiz-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.answers button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.answers button.selected {
+  background-color: #4cd137;
+  color: white;
+}
+
+.next-button {
+  background-color: #3742fa;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.next-button:hover {
+  background-color: #5760ef;
+}
+
+/* Result component */
+.result-container {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.result-container p {
+  font-size: 3rem;
+  color: #27ae60;
+}
+
+.restart-button {
+  background-color: #ff4757;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
